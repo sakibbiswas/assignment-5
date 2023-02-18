@@ -37,3 +37,11 @@ document.getElementById('rectangle-calc').addEventListener('click', function () 
     setElemenTextById('total-ractangle',currentArea)
 })
 
+// Parallelogram js
+document.getElementById('Parallelogram-calc').addEventListener('click', function () {
+    const ParallelogramArea = 10 * 12;
+    const Parallelogram  =getTextvalueById('total-Parallelogram')
+    setElemenTextById('total-Parallelogram',ParallelogramArea)
+})
+
+
