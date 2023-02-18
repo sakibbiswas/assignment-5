@@ -1,24 +1,11 @@
-.card-1:hover{
-    
-    background-color: aqua;
+
+
+
+#background {
+    transition:  5s;
+    -webkit-transition:  5s;
+    -moz-transition:  5s;
+    -ms-transition:  5s;
+    -o-transition:  5s;
 }
-.card-2:hover{
-    
-    background-color:coral;
-}
-.card-3:hover{
-    
-    background-color:hotpink;
-}
-.card-4:hover{
-    
-    background-color:darkorchid;
-}
-.card-5:hover{
-    
-    background-color:darkgoldenrod;
-}
-.card-6:hover{
-    
-    background-color:crimson;
-}
+
