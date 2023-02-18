@@ -51,10 +51,11 @@ document.getElementById('Rhombus-calc').addEventListener('click',function () {
 })
 
 // Pentagon js
-// document.getElementById('Pentagon-calc').addEventListener('click', function () {
-//     const PentagonArea = 0.5 * 6 * 10;
-//     const Pentagon = getTextvalueById('total-Pentagon')
-//     setElemenTextById('total-Pentagon', PentagonArea)
+document.getElementById('Pentagon-calc').addEventListener('click', function () {
+    const PentagonArea = 0.5 * 6 * 10;
+    const Pentagon = getTextvalueById('total-Pentagon')
+    setElemenTextById('total-Pentagon', PentagonArea)
+});
 
 // Ellipse js
 // document.getElementById('Ellipse-calc'.addEventListener('click', function () {
