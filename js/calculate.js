@@ -1,21 +1,3 @@
-// function getinputfieldById(feildid) {
-//     const iputField = document.getElementById(feildid)
-//     const inputFieldvalueString = iputField.value;
-//     const inputFieldvalue = parseFloat(inputFieldvalueString)
-//     return inputFieldvalue;
-// }
-// function getTextvalueById(TextId) {
-//     const TextElement = document.getElementById(TextId)
-//     const TextElementvaluestring = TextElement.innerText
-//     const TextElementvalue = parseFloat(TextElementvaluestring)
-//     return TextElementvalue;
-    
-// }
-
-// function setElemenTextById(elementId, newvalue) {
-//     const element = document.getElementById(elementId);
-//     element.innerText = newvalue;
-// }
 
 // Triangle js
 document.getElementById('triangle-calc').addEventListener('click', function () {
@@ -27,15 +9,15 @@ document.getElementById('triangle-calc').addEventListener('click', function () {
     const newArea = 0.5 * baseField * heightField;
     const Element = getTextvalueById('total-Area')
     setElemenTextById('total-Area', newArea)
-})
+});
 // Ractangle js
 document.getElementById('rectangle-calc').addEventListener('click', function () {
-    const widthfield=getinputfieldById('width-field')
+    const widthfield = getinputfieldById('width-field')
     const lengthfield = getinputfieldById('length-field')
     const currentArea = widthfield * lengthfield;
     const rectangle = getTextvalueById('total-ractangle')
-    setElemenTextById('total-ractangle',currentArea)
-})
+    setElemenTextById('total-ractangle', currentArea)
+});
 
 // Parallelogram js
 document.getElementById('Parallelogram-calc').addEventListener('click', function () {
@@ -44,11 +26,11 @@ document.getElementById('Parallelogram-calc').addEventListener('click', function
     setElemenTextById('total-Parallelogram', ParallelogramArea)
 });
 // Rhombus js
-document.getElementById('Rhombus-calc').addEventListener('click',function () {
+document.getElementById('Rhombus-calc').addEventListener('click', function () {
     const RhombusArea = 0.5 * 16 * 8;
     const Rhombus = getTextvalueById('total-Rhombus')
-    setElemenTextById('total-Rhombus',RhombusArea)
-})
+    setElemenTextById('total-Rhombus', RhombusArea)
+});
 
 // Pentagon js
 document.getElementById('Pentagon-calc').addEventListener('click', function () {
@@ -58,10 +40,10 @@ document.getElementById('Pentagon-calc').addEventListener('click', function () {
 });
 
 // Ellipse js
-// document.getElementById('Ellipse-calc'.addEventListener('click', function () {
-//     const EllipseArea = 3.1416 * 10 * 4;
-//     const Ellipse = getTextvalueById('total-Ellipse')
-//     setElemenTextById('total-Ellipse')
-// }))
+document.getElementById('Ellipse-calc').addEventListener('click', function () {
+    const EllipseArea = 3.1416 * 10 * 4;
+    const Ellipse = getTextvalueById('total-Ellipse')
+    setElemenTextById('total-Ellipse', EllipseArea)
+});
 
 

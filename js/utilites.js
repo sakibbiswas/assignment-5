@@ -3,6 +3,7 @@ function getinputfieldById(feildid) {
     const iputField = document.getElementById(feildid)
     const inputFieldvalueString = iputField.value;
     const inputFieldvalue = parseFloat(inputFieldvalueString)
+    iputField.value = '';
     return inputFieldvalue;
 }
 function getTextvalueById(TextId) {
