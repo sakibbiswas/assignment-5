@@ -6,6 +6,7 @@ function getinputfieldById(feildid) {
     iputField.value = '';
     return inputFieldvalue;
 }
+
 function getTextvalueById(TextId) {
     const TextElement = document.getElementById(TextId)
     const TextElementvaluestring = TextElement.innerText

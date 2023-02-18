@@ -5,11 +5,22 @@ document.getElementById('triangle-calc').addEventListener('click', function () {
 
     const baseField = getinputfieldById('base-field')
     const heightField = getinputfieldById('height-field')
-    // const newArea = 0.5 * baseFieldvalue * heightFieldvalue
     const newArea = 0.5 * baseField * heightField;
     const Element = getTextvalueById('total-Area')
     setElemenTextById('total-Area', newArea)
+    
+    // validation
+    if ( baseField == 0 || heightField == 0) {
+        alert('please type valid input')
+        return;
+    }
+  
+
+   
+    
 });
+
+
 // Ractangle js
 document.getElementById('rectangle-calc').addEventListener('click', function () {
     const widthfield = getinputfieldById('width-field')
@@ -17,6 +28,12 @@ document.getElementById('rectangle-calc').addEventListener('click', function () 
     const currentArea = widthfield * lengthfield;
     const rectangle = getTextvalueById('total-ractangle')
     setElemenTextById('total-ractangle', currentArea)
+
+      // validation
+    if ( widthfield === "" || lengthfield === "") {
+        alert('please type valid input')
+        return;
+    }
 });
 
 // Parallelogram js
@@ -42,8 +59,9 @@ document.getElementById('Pentagon-calc').addEventListener('click', function () {
 // Ellipse js
 document.getElementById('Ellipse-calc').addEventListener('click', function () {
     const EllipseArea = 3.1416 * 10 * 4;
+    const Ellipsecount= EllipseArea.toFixed(2)
     const Ellipse = getTextvalueById('total-Ellipse')
-    setElemenTextById('total-Ellipse', EllipseArea)
+    setElemenTextById('total-Ellipse', Ellipsecount)
 });
 
 
