@@ -29,8 +29,8 @@ document.getElementById('rectangle-calc').addEventListener('click', function () 
     const rectangle = getTextvalueById('total-ractangle')
     setElemenTextById('total-ractangle', currentArea)
 
-      // validation
-    if ( widthfield === "" || lengthfield === "") {
+    // validation
+    if (isNaN(widthfield)) {
         alert('please type valid input')
         return;
     }
